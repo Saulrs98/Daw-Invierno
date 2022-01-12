@@ -1,0 +1,19 @@
+.header{
+    background: gray;
+    width: 1420px;
+    text-align: center;    
+}
+
+h2 {
+    color:red;
+}
+h3{
+    color:aquamarine;
+    text-align: center;
+}
+.image{
+    align-self: center;
+    align="center"; 
+    WIDTH=50;
+    HEIGHT=50;
+}
