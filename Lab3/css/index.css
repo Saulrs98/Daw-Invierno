@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.logo > img {
+  width: 50px;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+nav {
+  background-color: gray;
+  margin-left: 10px
+}
+
+.menu {
+  display:none;
+}
+
+.hamburger {
+  display: flex;
+  justify-content: flex-end;
+  color: white;
+}
+
+.product {
+  border: solid;
+  border-width: 1px;
+  border-color: gray;
+    text-align: center;
+}
+
+.social{
+  
+}
+@media (min-width: 768px) and (max-width: 1024px){
+
+}
+
+@media(min-width: 1025px){
+
+}
