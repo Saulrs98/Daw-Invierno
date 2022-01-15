@@ -12,44 +12,118 @@ body {
   width: 50px;
 }
 
-header {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-evenly;
-}
+/*aqui */
 
-nav {
-  background-color: gray;
-  margin-left: 10px
-}
 
-.menu {
-  display:none;
-}
 
-.hamburger {
-  display: flex;
-  justify-content: flex-end;
-  color: white;
-}
-
-.product {
-  border: solid;
-  border-width: 1px;
-  border-color: gray;
+@media(min-width: 576px) and (max-width: 768px){
+  header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  
+  .navbar {
+    background-color: gray;
+    margin-left: 10px
+  }
+  
+  .menu {
+    display:none;
+  }
+  
+  .hamburger {
+    display: flex;
+    justify-content: flex-end;
+    color: white;
+  }
+  
+  .product {
+    border: gray;
+    border-width: .5px;
+    border-color: gray;
     text-align: center;
+  }
+
+  .social{
+    display:flex;
+    justify-content: space-evenly;
+    
+  }
+
+  .social_icon{
+    list-style: none;
+  }
 }
 
-.social{
-  display:flex;
-  justify-content: space-evenly;
-}
-
-@media (min-width: 768px) and (max-width: 1024px){
-
+@media (min-width: 769px) and (max-width: 1024px){
+  header{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  
+  nav {
+    background-color: gray;
+    margin-left: 10px
+  }
+  
+  .menu {
+    display:none;
+  }
+  
+  .hamburger {
+    display: flex;
+    justify-content: flex-end;
+    color: white;
+  }
+  
+  .product {
+    border: solid;
+    border-width: 1px;
+    border-color: rgb(219, 219, 219);
+    text-align: center;
+    margin-top:.2em;
+    margin-left: 3em;
+    margin-right: 3em;
+    padding-left: .5em;
+  }
+  
+  p{
+    text-align: left;
+  }
+  
+  .social{
+    display:flex;
+    justify-content: space-evenly;
+    
+  }
+  .social_icon{
+    list-style: none;
+  }
 }
 
 @media(min-width: 1025px){
-
+  header{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  
+  nav {
+    background-color: gray;
+    margin-left: 10px
+  }
+  
+  .hamburger{
+    display: none;
+  }
+  .menu {
+    display:flex;
+    justify-content: flex-end;
+    
+  }
 }
