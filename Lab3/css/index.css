@@ -12,6 +12,13 @@ body {
   width: 50px;
 }
 
+.social{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style-type: none
+}
+
 /* Celulares */
 
 
@@ -124,21 +131,16 @@ body {
   .hamburger{
     display: none;
   }
+
   .menu {
-    display:inline-flex;
-    padding: .5em .5em;
-    color:white;
-    list-style: none;
-    justify-content: right;
-    margin-left: 60em;
+    display: flex;
+    justify-content: flex-end;
+    color: white;
+    list-style-type: none;
+    padding: 1em .5em;
   }
 
-  .menu li{
-    margin-left: 1em;
-    padding: .1em 1em;
-    
-  }
-
+ 
   .product {
 
     box-sizing: border-box;
@@ -155,19 +157,20 @@ body {
     text-align: left;
   }
 
+  li{
+    padding-right: 30px;
+  }
+  
   .social{
-    display:flex;
-    justify-content: space-between;
-    flex-direction:row;
-    
+    border-top: 1px solid gray;
+    padding-top: 10px;
+    justify-content: space-around;
   }
 
+  
+  
   .social_icon{
     list-style: none;
   }
 
-  footer{
-    align-content:flex-start;
-    
-  }
 }
