@@ -33,6 +33,8 @@ list.append(div)
 }
  
 function TodoClear(){
+ let todos = document.getElementsByName("todo")
+ for (let i = 0; i< todos.length; i++)
  
 }
  
