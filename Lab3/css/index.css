@@ -161,9 +161,13 @@ body {
     flex-direction:row;
     
   }
-  
 
   .social_icon{
     list-style: none;
+  }
+
+  footer{
+    align-content:flex-start;
+    
   }
 }
