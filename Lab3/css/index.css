@@ -115,7 +115,7 @@ body {
   
   nav {
     background-color: gray;
-    margin-left: 10px
+    margin-left: 10px;
   }
   
   .hamburger{
@@ -124,6 +124,7 @@ body {
   .menu {
     display:flex;
     justify-content: flex-end;
+    padding: 1em 2em;
     
   }
 }
