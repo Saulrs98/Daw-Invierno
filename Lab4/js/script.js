@@ -1,3 +1,5 @@
+//1 Obtener las referencias de los elementos a interactuar
+ 
 let post = document.getElementById("ButtonPost")
 let clear = document.getElementById("ButtonClear")
 let mark = document.getElementById("ButtonMark")
@@ -33,15 +35,33 @@ list.append(div)
 }
  
 function TodoClear(){
- let todos = document.getElementsByName("todo")
- for (let i = 0; i< todos.length; i++)
+ 
+    let todos = document.getElementsByName("todo")
+    for(let i = 0; i< todos.length; i++){
+        todos[i].checked = false
+    }
  
 }
  
 function TodoMark() {
  
+    let todos = document.getElementsByName("todo")
+    for(let i = 0; i< todos.length; i++){
+        todos[i].checked = true
+    }
+ 
 }
  
 function TodoDel() {
+ 
+    let todos = document.getElementsByName("todo")
+ 
+    for(let i = 0; i< todos.length; i++){
+  
+    if (todos[i].checked){
+        todos[i].parentElement.remove()
+    }
+ 
+    }
  
 }
